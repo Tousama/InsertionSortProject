@@ -18,7 +18,7 @@
   En küçük eleman 0. indekse yazıldıktan sonra 1. indeks için kalan en küçük eleman aranıyor. Bunun için de eleman sayısının bir eksiği kadar karşılaştırma yapılarak ikinci en küçük eleman bulunuyor. 
   Bu işlemler en sona kadar devam ediyor.
   Bu algoritmada yapılan işlem sayısı -> **n + n - 1 + n -2 + .... + 1** 
-  Bunu işlem sayısının genel denklemi -> **n*(n+1)/2** şeklinde yazılabilir.
+  Bunu işlem sayısının genel denklemi -> **n(n+1)/2** şeklinde yazılabilir.
   Big-0 gösterimi için de en yüksek üst olan **n<sup>2<sup>** ifadesi alınır. 
   Böylelikle **O(n<sup>2<sup>)** olarak gösterilir.
   
